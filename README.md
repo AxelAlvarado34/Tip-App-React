@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# 🍽️ Restaurant Billing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a restaurant billing application built with React and TypeScript, designed to streamline the process of managing orders and invoices. The application provides an intuitive interface and robust features to handle the daily needs of a restaurant.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **🛠️ Built with React and TypeScript**: Leverages the power of TypeScript for a strongly-typed and safer development experience.
+- **⚛️ Custom Reducers**: Uses custom reducers for state management, providing a predictable and easy-to-debug data flow.
+- **🎨 Styled with CSS**: The application uses CSS to achieve an attractive and modern design that enhances the user experience.
+- **💾 Local Storage**: Implements local storage to persistently save data, ensuring that important information is not lost when the page is reloaded.
+- **✨ Animations with React Reveal**: Adds elegant and modern animations for an enhanced user experience.
+- **🔔 Notifications with React Toastify**: Integrates notifications to keep users informed about the status of their actions within the application.
+- **⚡ Project Created with Vite**: Uses Vite for project creation and development, providing a fast and optimized development experience.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to set up the project locally:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone this repository:**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   ```bash
+   https://github.com/AxelAlvarado34/Tip-App-React.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+    ```bash
+    cd Tip-App
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the application:
+    ```bash
+    npm run dev
+    ```
+
