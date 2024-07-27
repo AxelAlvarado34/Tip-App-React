@@ -2,6 +2,8 @@
 
 This is a restaurant billing application built with React and TypeScript, designed to streamline the process of managing orders and invoices. The application provides an intuitive interface and robust features to handle the daily needs of a restaurant.
 
+Link App View : https://sparkling-mandazi-7bdad2.netlify.app/
+
 ## Features
 
 - **🛠️ Built with React and TypeScript**: Leverages the power of TypeScript for a strongly-typed and safer development experience.
